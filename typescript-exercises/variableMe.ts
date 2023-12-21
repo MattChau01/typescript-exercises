@@ -1,6 +1,6 @@
 let greetings: string = 'Matt';
 
-let mynum = 6;
+let mynum = 9;
 
 
 console.log(greetings);
