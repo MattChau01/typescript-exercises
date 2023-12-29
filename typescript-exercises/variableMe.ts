@@ -14,3 +14,14 @@ userId.toFixed(2)
 let isLoggedIn: boolean = false
 
 export {}
+
+
+// with `noImplicitAny` in code
+
+let hero: string;
+
+function getHero() {
+    return 'thor';
+}
+
+hero = getHero();
